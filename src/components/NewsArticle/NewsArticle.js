@@ -3,7 +3,7 @@ import './NewsArticle.css';
 
 const NewsArticle = (props) => {
   return (
-    <article key={props.article.id}>
+    <article>
       <img src={props.article.img} alt="news article" />
       <h2>{props.article.headline}</h2>
       <p>{props.article.description}</p>
