@@ -25,7 +25,7 @@ p {
   padding: 3%;
 }
 
-a {
+.article-link {
   background: #B56AF1;
   border-radius: 0px 0px 8px 8px;
   color: white;
@@ -35,7 +35,6 @@ a {
 }
 
 .article-link-btn {
-
   font-size: 22px;
   margin-top: 2%;
   width: 100%;

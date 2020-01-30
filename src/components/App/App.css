@@ -8,11 +8,9 @@
   background: #141527;
   display: grid;
   grid-template-columns: 15% 85%;
-  /* grid-template-rows: auto; */
   grid-template-areas:
     "header header"
     "aside section";
-  /* padding: 2%; */
   height: 100vh;
   text-align: center;
   width: 100%;
@@ -28,17 +26,15 @@ span {
 
 header {
   grid-area: header;
-  border-bottom: 1px solid white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1%;
+  padding: 1% 1% 0%;
 }
 
 aside {
   grid-area: aside;
   font-size: 2vw;
-  padding: 5%;
   padding-top: 8%;
 }
 
