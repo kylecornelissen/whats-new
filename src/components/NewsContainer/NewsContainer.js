@@ -6,7 +6,7 @@ const NewsContainer = (props) => {
   return (
     <section>
     {props.articles.map(article => {
-      return <NewsArticle article={article} />
+      return <NewsArticle article={article} key={article.id}/>
     })};
     </section>
   )

@@ -13,7 +13,7 @@ class App extends Component {
     super();
     this.state = {
       categories: {local: local, health: health, entertainment: entertainment, science: science, technology: technology},
-      currentCategory: health
+      currentCategory: local
     }
   }
 

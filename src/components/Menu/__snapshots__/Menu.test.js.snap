@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should match a snapshot of the Menu 1`] = `
+<aside>
+  <ul>
+    <li
+      key="local"
+    >
+      <a
+        className="category-link"
+        onClick={[Function]}
+      >
+        Local News
+      </a>
+    </li>
+    <li
+      key="technology"
+    >
+      <a
+        className="category-link"
+        onClick={[Function]}
+      >
+        Technology
+      </a>
+    </li>
+    <li
+      key="entertainment"
+    >
+      <a
+        className="category-link"
+        onClick={[Function]}
+      >
+        Entertainment
+      </a>
+    </li>
+    <li
+      key="science"
+    >
+      <a
+        className="category-link"
+        onClick={[Function]}
+      >
+        Science
+      </a>
+    </li>
+    <li
+      key="health"
+    >
+      <a
+        className="category-link"
+        onClick={[Function]}
+      >
+        Health
+      </a>
+    </li>
+  </ul>
+</aside>
+`;
