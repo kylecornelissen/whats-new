@@ -3,13 +3,15 @@ import './Menu.css'
 
 const Menu = (props) => {
   return (
-    <ul>
-      <li>Local News</li>
-      <li>Technology</li>
-      <li>Entertainment</li>
-      <li>Science</li>
-      <li>Health</li>
-    </ul>
+    <aside>
+      <ul>
+        <li key="local"><a className="category-link" onClick={() => props.changeCategory('local')}>Local News</a></li>
+        <li key="technology"><a className="category-link" onClick={() => props.changeCategory('technology')}>Technology</a></li>
+        <li key="entertainment"><a className="category-link" onClick={() => props.changeCategory('entertainment')}>Entertainment</a></li>
+        <li key="science"><a className="category-link" onClick={() => props.changeCategory('science')}>Science</a></li>
+        <li key="health"><a className="category-link" onClick={() => props.changeCategory('health')}>Health</a></li>
+      </ul>
+    </aside>
   )
 }
 

@@ -4,5 +4,28 @@ ul {
 }
 
 li {
-  padding: 1%;
+  padding: 2% 0%;
+  margin: 3% 0%;
+  width: 95%;
+  cursor: pointer;
+}
+
+.category-link {
+  /* background: rgba(181,106,241, 0.4); */
+  border: 3px solid #FFAE00;
+  border-left: 0px;
+  border-radius: 0px 10px 10px 0px;
+  display: block;
+  padding: 2%;
+}
+
+.category-highlight {
+  background: rgb(181,106,241);
+  border: 20px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 0px;
+  color: #FFAE00;
+  text-shadow: 1px 1px 6px black;
+  border-color:
 }
