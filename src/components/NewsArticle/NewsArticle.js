@@ -7,7 +7,7 @@ const NewsArticle = (props) => {
       <img src={props.article.img} alt="news article" />
       <h2>{props.article.headline}</h2>
       <p>{props.article.description}</p>
-      <a href={props.article.url}>Link to Article</a>
+      <div className="article-link-btn"><a href={props.article.url}>Link to Article →</a></div>
     </article>
   )
 };
