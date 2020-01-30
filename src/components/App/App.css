@@ -5,18 +5,48 @@
 }
 
 .app {
-  display: flex;
   background: #141527;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  /* grid-template-rows: auto; */
+  grid-template-areas:
+    "header header"
+    "aside section";
+  /* padding: 2%; */
   height: 100vh;
-  padding: 2%;
   text-align: center;
   width: 100%;
 }
 
-section {
+h1 {
+  font-size:
+}
+
+span {
+  color: #FFAE00;
+}
+
+header {
+  grid-area: header;
+  border-bottom: 1px solid white;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1%;
-  padding: 3% 15%
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+aside {
+  grid-area: aside;
+  font-size: 2vw;
+  padding: 5%;
+  padding-top: 8%;
+}
+
+section {
+  grid-area: section;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1%;
 }
